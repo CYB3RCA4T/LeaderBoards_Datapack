@@ -1,3 +1,12 @@
+## **⚠️ Unofficial Fork**
+**This is an unofficial maintained fork of [LeaderBoards Datapack](https://modrinth.com/datapack/leaderboards-datapack)**
+**by [DJTgeekk](https://github.com/DJTgeekk), updated for newer Minecraft versions.**
+
+**Original project: https://modrinth.com/datapack/leaderboards-datapack**
+**Original source: https://github.com/DJTgeekk/LeaderBoards_Datapack**
+
+**All credit for the original work goes to DJTgeekk.**
+
 # LeaderBoards Datapack 1.21.6+
 
 A Datapack to place LeaderBoards Ranking players of your server on a given scoreboard objective.
