@@ -6,12 +6,14 @@
 ##
 scoreboard objectives add leaderboard dummy
 
+scoreboard players set #const.-1 leaderboard -1
 scoreboard players set #const.1 leaderboard 1
 scoreboard players set #const.2 leaderboard 2
 scoreboard players set #const.3 leaderboard 3
 scoreboard players set #const.5 leaderboard 5
 scoreboard players set #const.20 leaderboard 20
 scoreboard players set #const.60 leaderboard 60
+scoreboard players set #const.1000 leaderboard 1000
 
 # init time_mode storage
 data modify storage leaderboard:line value_0 set value 0
