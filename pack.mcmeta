@@ -2,6 +2,6 @@
     "pack": {
         "min_format": 101,
         "max_format": 101,
-        "description": "Leaderboards from scoreboards v3.0"
+        "description": "Leaderboards from scoreboards v4.1"
     }
 }
