@@ -1,7 +1,7 @@
 MIT License
 
-Copyright (c) 2024 DJTgeekk (https://github.com/DJTgeekk/LeaderBoards_Datapack)
-Copyright (c) 2026 CYB3RCA4T
+Copyright (c) 2024 DJTgeekk (https://github.com/DJTgeekk/LeaderBoards_Datapack) for the original code\
+Copyright (c) 2026 CYB3RCA4T for additions and modifications not part of the original code.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
