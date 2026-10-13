@@ -1,9 +1,3 @@
-##
- # build_time_values.mcfunction
- # 
- #
- # Created by DJT3.
-##
 $execute store result score #int.value leaderboard run scoreboard players get $(name) $(score)
 
 execute unless score #int.value leaderboard matches 0.. run scoreboard players set #bool.value_is_negative leaderboard 1

@@ -1,9 +1,3 @@
-##
- # run_uninstall.mcfunction
- # 
- #
- # Created by DJT3.
-##
 kill @e[type=text_display,tag=leaderboard]
 
 scoreboard objectives remove leaderboard
@@ -81,7 +75,16 @@ data remove storage leaderboard:leaderboard_nbt data
 
 data remove storage leaderboard:line_nbt text
 
-datapack disable "file/LeaderBoards_26.1.2_v4.1"
-datapack disable "file/LeaderBoards_26.1.2_v4.1.zip"
-tellraw @s {"text":"Leaderboard Datapack Uninstalled successfully","color":"red"}
+data remove storage leaderboard:namelist names
+data remove storage leaderboard:temp_namelist names
+data remove storage leaderboard:temp_namelist names_ordered
+data remove storage leaderboard:temp_namelist names_unordered
+data remove storage leaderboard:temp_namelist max_id
+
+tag @a remove lb_tracked
+
+datapack disable "file/LeaderBoards_v4.2_26.3"
+datapack disable "file/LeaderBoards_v4.2_26.3.zip"
+tellraw @s {"text":"Leaderboard Datapack Uninstalled successfully","color":"red", "text": "to re-enable run /datapack enable \"file/LeaderBoards_v4.2_26.3.zip\""}
+tellraw @s {"text": "to re-enable run /datapack enable \"file/LeaderBoards_v4.2_26.3.zip\""}
 reload

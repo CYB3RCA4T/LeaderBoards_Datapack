@@ -1,9 +1,3 @@
-##
- # line_text_build.mcfunction
- # 
- #
- # Created by DJT3.
-##
 
 $data modify storage leaderboard:line_nbt text set value {"text":"","extra":[{"text":"#$(rank) ","color":"$(color)"}," ",{"text":"$(name)","bold":$(bold_name)},"  :  "]}
 

@@ -1,9 +1,3 @@
-##
- # update_all_leaderboard.mcfunction
- # 
- #
- # Created by DJT3.
-##
 data modify storage leaderboard:leaderboard_nbt data set from entity @s data
 
 data modify storage leaderboard:update score set from storage leaderboard:leaderboard_nbt data.score

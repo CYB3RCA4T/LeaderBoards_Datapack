@@ -1,9 +1,3 @@
-##
- # get_player_rank.mcfunction
- # 
- #
- # Created by DJT3.
-##
 data modify storage leaderboard:temp_player player set from storage leaderboard:temp_namelist names[-1]
 data remove storage leaderboard:temp_namelist names[-1]
 

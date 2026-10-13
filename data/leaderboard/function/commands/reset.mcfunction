@@ -1,9 +1,3 @@
-##
- # reset.mcfunction
- # lb
- #
- # Created by DJT3.
-##
 scoreboard objectives add leaderboard dummy
 
 scoreboard players set #const.-1 leaderboard -1
@@ -20,6 +14,14 @@ data modify storage leaderboard:line value_0 set value 0
 data modify storage leaderboard:line value_1 set value 0
 data modify storage leaderboard:line value_2 set value 0
 data modify storage leaderboard:line value_3 set value 0
+
+data modify storage leaderboard:namelist names set value []
+data modify storage leaderboard:temp_namelist names set value []
+data modify storage leaderboard:temp_namelist names_ordered set value []
+data modify storage leaderboard:temp_namelist names_unordered set value []
+data modify storage leaderboard:temp_namelist max_id set value 0
+
+tag @a remove lb_tracked
 
 kill @e[type=minecraft:text_display,tag=leaderboard,tag=!top]
 kill 00000070-0000-006e-0000-007400000078

@@ -1,9 +1,3 @@
-##
- # get_player_rank_init.mcfunction
- # 
- #
- # Created by DJT3.
-##
 $data modify storage leaderboard:temp_namelist names set from storage $(list)
 scoreboard players set #int.temp_rank leaderboard 0
 execute at @s as @p run function leaderboard:lb/get_closest_player_name

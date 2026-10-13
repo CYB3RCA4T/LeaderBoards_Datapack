@@ -1,9 +1,3 @@
-##
- # add_close_player_line.mcfunction
- # 
- #
- # Created by DJT3.
-##
 execute store result storage leaderboard:line rank int 1 run scoreboard players get #int.temp_rank leaderboard
 
 scoreboard players operation #int.temp_lines leaderboard += #const.1 leaderboard

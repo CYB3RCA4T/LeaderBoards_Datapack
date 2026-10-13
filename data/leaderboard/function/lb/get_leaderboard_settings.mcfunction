@@ -1,9 +1,3 @@
-##
- # get_leaderboard_settings.mcfunction
- # 
- #
- # Created by DJT3.
-##
 
 data merge storage leaderboard:init_edit {reverse_order:0,no_zero:0,medal_color:0,always_show_closest_player:0,time_mode:0}
 

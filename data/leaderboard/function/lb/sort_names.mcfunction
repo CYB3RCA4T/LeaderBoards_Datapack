@@ -1,9 +1,3 @@
-##
- # sort_names.mcfunction
- # 
- #
- # Created by DJT3.
-##
 $data modify storage leaderboard:temp_player score set value $(score)
 
 # Reset output

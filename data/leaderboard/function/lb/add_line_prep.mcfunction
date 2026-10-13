@@ -1,9 +1,3 @@
-##
- # add_line_prep.mcfunction
- # 
- #
- # Created by DJT3.
-##
 $data modify storage leaderboard:line name set from storage leaderboard:temp_namelist names_ordered[$(lines)]
 
 $execute at @s unless entity @e[type=text_display,distance=..0.001,tag=!top,tag=$(lines)] run function leaderboard:lb/add_line with storage leaderboard:line

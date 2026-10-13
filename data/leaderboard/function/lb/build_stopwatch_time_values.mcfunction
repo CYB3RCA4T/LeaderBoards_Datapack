@@ -1,9 +1,3 @@
-##
- # build_stopwatch_time_values.mcfunction
- # 
- #
- # Created by DJT3.
-##
 
 $execute store result score #int.value leaderboard run scoreboard players get $(name) $(score)
 

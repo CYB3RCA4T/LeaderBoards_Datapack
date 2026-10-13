@@ -1,9 +1,3 @@
-##
- # update_leaderboard.mcfunction
- # 
- #
- # Created by DJT3.
-##
 $data modify storage leaderboard:line score set value $(score)
 $scoreboard players set #int.temp_max_mp leaderboard $(max_players)
 

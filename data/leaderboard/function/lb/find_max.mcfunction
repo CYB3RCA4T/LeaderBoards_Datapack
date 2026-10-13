@@ -1,9 +1,3 @@
-##
- # find_max.mcfunction
- # 
- #
- # Created by DJT3.
-##
 data modify storage leaderboard:temp_player player set from storage leaderboard:temp_namelist names[-1]
 data remove storage leaderboard:temp_namelist names[-1]
 scoreboard players operation #int.temp_max_mp leaderboard = #int.temp_score_display leaderboard

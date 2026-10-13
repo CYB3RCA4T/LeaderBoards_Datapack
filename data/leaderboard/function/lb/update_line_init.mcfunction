@@ -1,9 +1,3 @@
-##
- # update_line_init.mcfunction
- # 
- #
- # Created by DJT3.
-##
 execute unless data storage leaderboard:leaderboard_nbt {data:{time_mode:0}} unless data storage leaderboard:leaderboard_nbt {data:{time_mode:3}} as @s run function leaderboard:lb/build_time_values with storage leaderboard:line
 execute if data storage leaderboard:leaderboard_nbt {data:{time_mode:3}} as @s run function leaderboard:lb/build_stopwatch_time_values with storage leaderboard:line
 data modify storage leaderboard:line color set value "white"
